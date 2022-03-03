@@ -1,0 +1,22 @@
+.form__button {
+  width: 50%;
+  height: 40px;
+  font-size: 14px;
+  border: 0;
+  border-radius: 20px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  background-color: #2f80ed;
+  color: #fff;
+  font-family: inherit;
+  margin: 0 auto;
+  transition: opacity .4s ease;
+}
+
+.form__button:hover {
+  opacity: .7;
+}
+
+.form__button:last-child {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+.form__item_subscribe {
+  height: 60px;
+  font-size: 18px;
+  border: none;
+}
+
+.form__item_subscribe:focus {
+  outline-color: #fff
+}

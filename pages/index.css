@@ -71,4 +71,24 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-
+@import url(../blocks/section-title/_theme/section-title_theme_dark-form.css);
+@import url(../blocks/section-title/_theme/section-title_theme_light-form.css);
+@import url(../blocks/first-line/first-line.css);
+@import url(../blocks/first-line/first-line__link/first-line__link.css);
+@import url(../blocks/first-line/first-line__links/first-line__links.css);
+@import url(../blocks/section-subtitle/_form/section-subtitle_form.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__comment/form__comment.css);
+@import url(../blocks/form/__contact-column/form__contact-column.css);
+@import url(../blocks/form/__contact-info/form__contact-info.css);
+@import url(../blocks/form/__extra-option/form__extra-option.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__input-container/_extra/form__input-container_extra.css);
+@import url(../blocks/form/__input-container/_subscribe/form__input-container_subscribe.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_subscribe/form__item_subscribe.css);
+@import url(../blocks/form/__item/_comment-text/form__item_comment-text.css);
+@import url(../blocks/form/__item/_checkbox/form__item_checkbox.css);
+@import url(../blocks/form/__subscribe/form__subscribe.css);
+@import url(../blocks/form/_button/form__button.css);
+@import url(../blocks/form/_button/_subscribe/form__button_subscribe.css);

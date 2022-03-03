@@ -9,7 +9,16 @@
 <body>
   <div class="page">
     <header class="header">
+      <div class="first-line">
         <img src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум" class="logo logo_place_header">
+        <nav>
+          <ul class="first-line__links">
+            <li><a href="#" class="first-line__link">Главная</a></li>
+            <li><a href="#" class="first-line__link">Концепция</a></li>
+            <li><a href="#" class="first-line__link">Наставники</a></li>
+          </ul>
+        </nav>
+      </div>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать &rarr;</a></p>
         <img class="header__main-illustration" src="./images/two_again.png" alt="Фрагмент картины 'Опять двойка'">
@@ -66,6 +75,14 @@
           </li>
         </ul>
       </section>
+
+      <form class="form form__subscribe">
+        <h2 class="section-title section-title_theme_light-form">Подпишитесь на нашу рассылку</h2>
+        <fieldset class="form__input-container form__input-container_subscribe">
+        <input type="email" class="form__item form__item_subscribe" id="email" placeholder="ivanov1999@mail.ru" required>
+        <button type="submit" class="form__button form__button_subscribe">Подписаться</button>
+        </fieldset>
+      </form>
 
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
@@ -209,11 +226,50 @@
       </section>
     </main>
 
+      <form class="form form__comment">
+        <h2 class="section-title section-title_theme_dark-form">Добавьте комментарий</h2>
+        <p class="section-subtitle section-subtitle_form">Ваш e-mail не будет опубликован. Обязательные поля отмечены *</p>
+        <fieldset class="form__input-container">
+          <label for="comment-text">Комментарий*</label>
+          <textarea class="form__item form__item_comment-text" id="comment-text" placeholder="Добавить комментарий..." required></textarea>
+          <button type="reset" class="form__button">Очистить</button>
+        </fieldset>
+        <fieldset class="form__input-container">
+          <div class="form__contact-info">
+            <div class="form__contact-column">
+              <label for="surname" name="surname">Фамилия</label>
+              <input type="text" class="form__item" id="surname" placeholder="Иванов">
+              </div>
+            <div class="form__contact-column">
+              <label for="name" name="name">Имя*</label>
+              <input type="text" class="form__item" id="name" placeholder="Иван" required>
+            </div>
+            <div class="form__contact-column">
+              <label for="email" name="email">E-mail*</label>
+              <input type="email" class="form__item" id="email" placeholder="ivanov1999@mail.ru" required>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="form__input-container form__input-container_extra">
+          <div class="form__extra-option">
+          <input type="checkbox" class="form__item form__item_checkbox" id="save-info" value="save-info" checked>
+          <label for="save-info">Сохранить мои данные</label>
+          </div>
+          <div class="form__extra-option">
+            <input type="checkbox" class="form__item form__item_checkbox" id="show-email" value="show-email">
+          <label for="show-email">Опубликовать e-mail</label>
+          </div>
+        </fieldset>
+        <fieldset class="form__input-container">
+        <button type="submit" class="form__button">Отправить комментарий</button>
+      </fieldset>
+      </form>
+
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
           <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
-          <p class="footer__author">&copy;2019. Виктор Абанькин</p>
+          <p class="footer__author">&copy;2022. Ксения Мадей</p>
         </div>
         <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>

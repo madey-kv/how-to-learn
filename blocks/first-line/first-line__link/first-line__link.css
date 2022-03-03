@@ -1,0 +1,12 @@
+.first-line__link {
+  padding-left: 50px;
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  font-weight: 200;
+  transition: opacity .4s ease;
+}
+
+.first-line__link:hover {
+  opacity: .4;
+}
